@@ -1,0 +1,4 @@
+Problemas atuais:
+compilação AOT não funciona
+para se iniciar um .hcpp, não comece o código diretamente com uma função .hcpp ou dará erro de leitura
+o loop quebra a execução

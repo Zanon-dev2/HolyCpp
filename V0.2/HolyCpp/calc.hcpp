@@ -1,0 +1,27 @@
+
+int calc(){
+	float a = GetD64("Digite o primeiro numero");
+	float b = GetD64("Digite o segundo numero");
+	float r;
+	string c = GetStr("Digite a operacao");
+	switch (c[0]){
+	case '-':
+		r = a - b;
+		break;
+	case '+':
+		r = a + b;
+		break;
+	case '/':
+		r = a / b;
+		break;
+	case '*':
+		r = a * b;
+		break;
+	default:
+		"desconhecido";
+	}
+	"resultado: %e", r;
+	Free(c);
+	return 1;
+}
+calc;

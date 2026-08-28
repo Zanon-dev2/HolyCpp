@@ -1,0 +1,6 @@
+void adivi(){
+	"Diga uma palavra\n";
+	string x = GetStr();
+	"%s", x;
+}
+adivi;
